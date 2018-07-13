@@ -1,0 +1,100 @@
+Data Code Book
+=================
+
+The tidy data file tbl_tidyData.txt is grouped by Activity Type and then by Subject. There are a set of 6 activities, and 30 subjects. The tidy table shows averages of each variable for each Activity and Subject combination.  
+
+In order to make the data more descriptive, the following updates were made to the variable naming convention in the original dataset
+
+std() changed to StandardDeviation
+mean() changed to Mean
+^t changed to Time
+^f changed to Frequency
+Acc changed to Accelerometer
+Gyro changed to Gyroscope
+Mag changed to Magnitude
+BodyBody changed to Body
+
+As a result, the following are the new variables. Again, these show the average value of measurement for these variables. 
+
+Variable Name :  Variable Description
+
+
+TimeBodyAccelerometer-Mean()-X :   Average of  Mean of Time Domain Signals of Body Acceleration from Accelerometer in X axis direction
+TimeBodyAccelerometer-Mean()-Y :   Average of  Mean of Time Domain Signals of Body Acceleration from Accelerometer in Y axis direction
+TimeBodyAccelerometer-Mean()-Z :   Average of  Mean of Time Domain Signals of Body Acceleration from Accelerometer in Z axis direction
+TimeBodyAccelerometer-StandardDeviation()-X :   Average of  Standard Deviation of  Time Domain Signals of Body Acceleration from Accelerometer in X axis direction
+TimeBodyAccelerometer-StandardDeviation()-Y :   Average of  Standard Deviation of  Time Domain Signals of Body Acceleration from Accelerometer in Y axis direction
+TimeBodyAccelerometer-StandardDeviation()-Z :   Average of  Standard Deviation of  Time Domain Signals of Body Acceleration from Accelerometer in Z axis direction
+TimeGravityAccelerometer-Mean()-X :   Average of  Mean of Time Domain Signals of Gravity Acceleration from Accelerometer in X axis direction
+TimeGravityAccelerometer-Mean()-Y :   Average of  Mean of Time Domain Signals of Gravity Acceleration from Accelerometer in Y axis direction
+TimeGravityAccelerometer-Mean()-Z :   Average of  Mean of Time Domain Signals of Gravity Acceleration from Accelerometer in Z axis direction
+TimeGravityAccelerometer-StandardDeviation()-X :   Average of  Standard Deviation of  Time Domain Signals of Gravity Acceleration from Accelerometer in X axis direction
+TimeGravityAccelerometer-StandardDeviation()-Y :   Average of  Standard Deviation of  Time Domain Signals of Gravity Acceleration from Accelerometer in Y axis direction
+TimeGravityAccelerometer-StandardDeviation()-Z :   Average of  Standard Deviation of  Time Domain Signals of Gravity Acceleration from Accelerometer in Z axis direction
+TimeBodyAccelerometerJerk-Mean()-X :   Average of  Mean of Time Domain Jerk Signals of Body Acceleration from Accelerometer in X axis direction
+TimeBodyAccelerometerJerk-Mean()-Y :   Average of  Mean of Time Domain Jerk Signals of Body Acceleration from Accelerometer in Y axis direction
+TimeBodyAccelerometerJerk-Mean()-Z :   Average of  Mean of Time Domain Jerk Signals of Body Acceleration from Accelerometer in Z axis direction
+TimeBodyAccelerometerJerk-StandardDeviation()-X :   Average of  Standard Deviation of  Time Domain Jerk Signals of Body Acceleration from Accelerometer in X axis direction
+TimeBodyAccelerometerJerk-StandardDeviation()-Y :   Average of  Standard Deviation of  Time Domain Jerk Signals of Body Acceleration from Accelerometer in Y axis direction
+TimeBodyAccelerometerJerk-StandardDeviation()-Z :   Average of  Standard Deviation of  Time Domain Jerk Signals of Body Acceleration from Accelerometer in Z axis direction
+TimeBodyGyroscope-Mean()-X :   Average of  Mean of Time Domain Signals of Body Acceleration from Gyroscope in X axis direction
+TimeBodyGyroscope-Mean()-Y :   Average of  Mean of Time Domain Signals of Body Acceleration from Gyroscope in Y axis direction
+TimeBodyGyroscope-Mean()-Z :   Average of  Mean of Time Domain Signals of Body Acceleration from Gyroscope in Z axis direction
+TimeBodyGyroscope-StandardDeviation()-X :   Average of  Standard Deviation of  Time Domain Signals of Body Acceleration from Gyroscope in X axis direction
+TimeBodyGyroscope-StandardDeviation()-Y :   Average of  Standard Deviation of  Time Domain Signals of Body Acceleration from Gyroscope in Y axis direction
+TimeBodyGyroscope-StandardDeviation()-Z :   Average of  Standard Deviation of  Time Domain Signals of Body Acceleration from Gyroscope in Z axis direction
+TimeBodyGyroscopeJerk-Mean()-X :   Average of  Mean of Time Domain Jerk Signals of Body Acceleration from Gyroscope in X axis direction
+TimeBodyGyroscopeJerk-Mean()-Y :   Average of  Mean of Time Domain Jerk Signals of Body Acceleration from Gyroscope in Y axis direction
+TimeBodyGyroscopeJerk-Mean()-Z :   Average of  Mean of Time Domain Jerk Signals of Body Acceleration from Gyroscope in Z axis direction
+TimeBodyGyroscopeJerk-StandardDeviation()-X :   Average of  Standard Deviation of  Time Domain Jerk Signals of Body Acceleration from Gyroscope in X axis direction
+TimeBodyGyroscopeJerk-StandardDeviation()-Y :   Average of  Standard Deviation of  Time Domain Jerk Signals of Body Acceleration from Gyroscope in Y axis direction
+TimeBodyGyroscopeJerk-StandardDeviation()-Z :   Average of  Standard Deviation of  Time Domain Jerk Signals of Body Acceleration from Gyroscope in Z axis direction
+TimeBodyAccelerometerMagnitude-Mean() :   Average of  Mean of Magnitude of Time Domain Signals of Body Acceleration from Accelerometer 
+TimeBodyAccelerometerMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Time Domain Signals of Body Acceleration from Accelerometer 
+TimeGravityAccelerometerMagnitude-Mean() :   Average of  Mean of Magnitude of Time Domain Signals of Gravity Acceleration from Accelerometer 
+TimeGravityAccelerometerMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Time Domain Signals of Gravity Acceleration from Accelerometer 
+TimeBodyAccelerometerJerkMagnitude-Mean() :   Average of  Mean of Magnitude of Time Domain Jerk Signals of Body Acceleration from Accelerometer 
+TimeBodyAccelerometerJerkMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Time Domain Jerk Signals of Body Acceleration from Accelerometer 
+TimeBodyGyroscopeMagnitude-Mean() :   Average of  Mean of Magnitude of Time Domain Signals of Body Acceleration from Gyroscope 
+TimeBodyGyroscopeMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Time Domain Signals of Body Acceleration from Gyroscope 
+TimeBodyGyroscopeJerkMagnitude-Mean() :   Average of  Mean of Magnitude of Time Domain Jerk Signals of Body Acceleration from Gyroscope 
+TimeBodyGyroscopeJerkMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Time Domain Jerk Signals of Body Acceleration from Gyroscope 
+FrequencyBodyAccelerometer-Mean()-X :   Average of  Mean of Frequency Domain Signals of Body Acceleration from Accelerometer in X axis direction
+FrequencyBodyAccelerometer-Mean()-Y :   Average of  Mean of Frequency Domain Signals of Body Acceleration from Accelerometer in Y axis direction
+FrequencyBodyAccelerometer-Mean()-Z :   Average of  Mean of Frequency Domain Signals of Body Acceleration from Accelerometer in Z axis direction
+FrequencyBodyAccelerometer-StandardDeviation()-X :   Average of  Standard Deviation of  Frequency Domain Signals of Body Acceleration from Accelerometer in X axis direction
+FrequencyBodyAccelerometer-StandardDeviation()-Y :   Average of  Standard Deviation of  Frequency Domain Signals of Body Acceleration from Accelerometer in Y axis direction
+FrequencyBodyAccelerometer-StandardDeviation()-Z :   Average of  Standard Deviation of  Frequency Domain Signals of Body Acceleration from Accelerometer in Z axis direction
+FrequencyBodyAccelerometer-MeanFreq()-X :   Average of  Mean Frequency of Frequency Domain Signals of Body Acceleration from Accelerometer in X axis direction
+FrequencyBodyAccelerometer-MeanFreq()-Y :   Average of  Mean Frequency of Frequency Domain Signals of Body Acceleration from Accelerometer in Y axis direction
+FrequencyBodyAccelerometer-MeanFreq()-Z :   Average of  Mean Frequency of Frequency Domain Signals of Body Acceleration from Accelerometer in Z axis direction
+FrequencyBodyAccelerometerJerk-Mean()-X :   Average of  Mean of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in X axis direction
+FrequencyBodyAccelerometerJerk-Mean()-Y :   Average of  Mean of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in Y axis direction
+FrequencyBodyAccelerometerJerk-Mean()-Z :   Average of  Mean of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in Z axis direction
+FrequencyBodyAccelerometerJerk-StandardDeviation()-X :   Average of  Standard Deviation of  Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in X axis direction
+FrequencyBodyAccelerometerJerk-StandardDeviation()-Y :   Average of  Standard Deviation of  Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in Y axis direction
+FrequencyBodyAccelerometerJerk-StandardDeviation()-Z :   Average of  Standard Deviation of  Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in Z axis direction
+FrequencyBodyAccelerometerJerk-MeanFreq()-X :   Average of  Mean Frequency of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in X axis direction
+FrequencyBodyAccelerometerJerk-MeanFreq()-Y :   Average of  Mean Frequency of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in Y axis direction
+FrequencyBodyAccelerometerJerk-MeanFreq()-Z :   Average of  Mean Frequency of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer in Z axis direction
+FrequencyBodyGyroscope-Mean()-X :   Average of  Mean of Frequency Domain Signals of Body Acceleration from Gyroscope in X axis direction
+FrequencyBodyGyroscope-Mean()-Y :   Average of  Mean of Frequency Domain Signals of Body Acceleration from Gyroscope in Y axis direction
+FrequencyBodyGyroscope-Mean()-Z :   Average of  Mean of Frequency Domain Signals of Body Acceleration from Gyroscope in Z axis direction
+FrequencyBodyGyroscope-StandardDeviation()-X :   Average of  Standard Deviation of  Frequency Domain Signals of Body Acceleration from Gyroscope in X axis direction
+FrequencyBodyGyroscope-StandardDeviation()-Y :   Average of  Standard Deviation of  Frequency Domain Signals of Body Acceleration from Gyroscope in Y axis direction
+FrequencyBodyGyroscope-StandardDeviation()-Z :   Average of  Standard Deviation of  Frequency Domain Signals of Body Acceleration from Gyroscope in Z axis direction
+FrequencyBodyGyroscope-MeanFreq()-X :   Average of  Mean Frequency of Frequency Domain Signals of Body Acceleration from Gyroscope in X axis direction
+FrequencyBodyGyroscope-MeanFreq()-Y :   Average of  Mean Frequency of Frequency Domain Signals of Body Acceleration from Gyroscope in Y axis direction
+FrequencyBodyGyroscope-MeanFreq()-Z :   Average of  Mean Frequency of Frequency Domain Signals of Body Acceleration from Gyroscope in Z axis direction
+FrequencyBodyAccelerometerMagnitude-Mean() :   Average of  Mean of Magnitude of Frequency Domain Signals of Body Acceleration from Accelerometer 
+FrequencyBodyAccelerometerMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Frequency Domain Signals of Body Acceleration from Accelerometer 
+FrequencyBodyAccelerometerMagnitude-MeanFreq() :   Average of  Mean Frequency of Magnitude of Frequency Domain Signals of Body Acceleration from Accelerometer 
+FrequencyBodyAccelerometerJerkMagnitude-Mean() :   Average of  Mean of Magnitude of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer 
+FrequencyBodyAccelerometerJerkMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer 
+FrequencyBodyAccelerometerJerkMagnitude-MeanFreq() :   Average of  Mean Frequency of Magnitude of Frequency Domain Jerk Signals of Body Acceleration from Accelerometer 
+FrequencyBodyGyroscopeMagnitude-Mean() :   Average of  Mean of Magnitude of Frequency Domain Signals of Body Acceleration from Gyroscope 
+FrequencyBodyGyroscopeMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Frequency Domain Signals of Body Acceleration from Gyroscope 
+FrequencyBodyGyroscopeMagnitude-MeanFreq() :   Average of  Mean Frequency of Magnitude of Frequency Domain Signals of Body Acceleration from Gyroscope 
+FrequencyBodyGyroscopeJerkMagnitude-Mean() :   Average of  Mean of Magnitude of Frequency Domain Jerk Signals of Body Acceleration from Gyroscope 
+FrequencyBodyGyroscopeJerkMagnitude-StandardDeviation() :   Average of  Standard Deviation of  Magnitude of Frequency Domain Jerk Signals of Body Acceleration from Gyroscope 
+FrequencyBodyGyroscopeJerkMagnitude-MeanFreq() :   Average of  Mean Frequency of Magnitude of Frequency Domain Jerk Signals of Body Acceleration from Gyroscope ￿暍暍暍￿暍暍暍￿暍暍暍￿暍暍暍￿暍暍暍￿暍暍暍￿暍暍暍￿暍暍暍￿᳤⃸⌺⾗
